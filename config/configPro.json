@@ -1,0 +1,22 @@
+{
+  "runmode": "debug",
+  "addr": ":8080",
+
+  "redis": {
+    "host": "r-bp10468838ab5064165.redis.rds.aliyuncs.com",
+    "port": 6379,
+    "pwd": "Xiudian^0810$r##"
+  },
+
+  "mongo": {
+    "uri": "",
+    "user": "hangzhou_tv",
+    "pwd": "Hangzhou^0810$##",
+    "databases": "hangzhou_tv"
+  },
+
+  "amqp":{
+    "url": "amqp://admin:123456@172.16.1.13:6672/"
+  },
+  "activityUrl": "http://activity.htvxizhu.com"
+}

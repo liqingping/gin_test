@@ -1,0 +1,23 @@
+{
+  "runmode": "debug",
+  "addr": ":4040",
+
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+
+  "mongo": {
+    "uri": "127.0.0.1",
+    "user": "root",
+    "pwd": ""
+  },
+
+  "mysql": {
+    "host": "192.168.0.81",
+    "port": 3306,
+    "user": "root",
+    "pwd": "tyd*#2016",
+    "database": "oz_market"
+  }
+}
